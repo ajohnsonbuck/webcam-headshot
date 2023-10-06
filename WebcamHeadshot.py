@@ -118,7 +118,7 @@ faceClassifier = cascadeClassifier(modelDir+modelFile)
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
     print("Error: camera opening unsuccessful.  Quitting.")
-    HS.sys.exit()
+    sys.exit()
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
