@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 """
+Alex Johnson-, 2022
+
 WebcamHeadshot
 View webcam feed, apply filters and take headshot
 
 Recognizes face in field of view using Haar cascades and takes a headshot upon pressing c key.
+
 Apply blur and other filters 
 
-@author: Alex Johnson-Buck
 """
-
 
 import cv2
 import numpy as np
