@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Alex Johnson-, 2022
+Alex Johnson-Buck
 
 WebcamHeadshot
 View webcam feed, apply filters and take headshot
